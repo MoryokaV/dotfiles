@@ -1,3 +1,3 @@
 # dotfiles
 OS X terminal configuration files
-<img width="1490" alt="Screenshot 2021-10-27 at 19 03 22" src="https://user-images.githubusercontent.com/55505135/139103976-9cdb4ebc-0159-4787-ba3c-aa6a584352fc.png">
+<img width="1490" alt="Screenshot 2021-11-03 at 12 25 52" src="https://user-images.githubusercontent.com/55505135/140044347-fd0d327e-0af8-4486-ac69-db132153f2ee.png">
