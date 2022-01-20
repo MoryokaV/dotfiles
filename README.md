@@ -1,6 +1,6 @@
 # dotfiles
 OS X terminal configuration files
 
-ZSH + homebrew + Vim + Tmux + tty-clock + neofetch
+ZSH + homebrew + Vim + Tmux + neofetch
 
-<img width="1490" alt="Screenshot 2021-11-27 at 14 05 24" src="https://user-images.githubusercontent.com/55505135/143681137-1e0de55f-7eca-4412-ae72-ffe609c8fd5c.png">
+<img width="1553" alt="Screenshot 2022-01-20 at 21 30 03" src="https://user-images.githubusercontent.com/55505135/150409052-5783f902-43e2-40e7-8cf9-22ea3122094a.png">
