@@ -16,6 +16,7 @@ set encoding=UTF-8
 " Indent
 filetype plugin indent on
 autocmd FileType cpp setlocal shiftwidth=4 tabstop=4
+autocmd FileType css setlocal shiftwidth=4 tabstop=4
 set ai
 set si
 set tabstop=2
