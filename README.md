@@ -6,6 +6,7 @@ OS X development configuration files
 ## Setup
 Terminal used: iTerm2  
 Used for: Python, JS, C++
+Font: Hack Nerd Font Mono
 
 ## Tools used
   - zsh shell
