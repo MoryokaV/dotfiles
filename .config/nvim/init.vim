@@ -12,6 +12,8 @@ set mouse=a
 set expandtab
 set ttyfast
 set encoding=UTF-8
+set noswapfile
+set nobackup
 
 " Indent
 filetype plugin indent on
