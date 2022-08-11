@@ -9,7 +9,6 @@ set ruler
 set clipboard=unnamed
 set mouse=a
 set ttyfast
-set cursorline
 
 " Cursor shape
 let &t_SI = "\e[6 q"
@@ -18,10 +17,7 @@ let &t_EI = "\e[2 q"
 " Theme
 syntax on
 set background=dark
-
-colorscheme NeoSolarized
-hi Normal guibg=NONE ctermbg=NONE
-"colorscheme peachpuff
+colorscheme peachpuff
 
 " Indent
 filetype plugin indent on
