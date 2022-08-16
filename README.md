@@ -1,4 +1,4 @@
-<img width="1440" alt="Screenshot 2022-07-21 at 20 18 32" src="https://user-images.githubusercontent.com/55505135/180275096-0df4bc5a-521a-4b3b-bcdc-82837b0ebd51.png">
+<img width="1383" alt="Screenshot 2022-08-16 at 17 17 52" src="https://user-images.githubusercontent.com/55505135/184902652-0f794c29-1e46-462d-bb71-2e0163a604c3.png">
 
 # Mario's dotfiles
 OS X development configuration files
