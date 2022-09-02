@@ -5,9 +5,17 @@ if (not status2) then return end
 
 mason.setup {}
 lspconfig.setup {
-  ensure_installed = { 'clangd', 'tailwindcss', 'tsserver' }
+  ensure_installed = { 'clangd', 'tailwindcss', 'tsserver', 'cssls' }
 }
 
 require'lspconfig'.clangd.setup{}
 require'lspconfig'.tsserver.setup{}
 require'lspconfig'.tailwindcss.setup{}
+
+--CSS
+local capabilities = vim.lsp.protocol.make_client_capabilities()
+capabilities.textDocument.completion.completionItem.snippetSupport = true
+
+require'lspconfig'.cssls.setup {
+  capabilities = capabilities,
+}
