@@ -40,5 +40,15 @@ vim.api.nvim_create_autocmd("InsertLeave", {
   command = 'set nopaste',
 })
 
+vim.api.nvim_create_autocmd("filetype", {
+  pattern = "cpp",
+  command = "setlocal shiftwidth=4 tabstop=4",
+})
+
+vim.api.nvim_create_autocmd("filetype", {
+  pattern = "css",
+  command = "setlocal shiftwidth=4 tabstop=4",
+})
+
 -- Add asterisks in block comments
 vim.opt.formatoptions:append { 'r' }
