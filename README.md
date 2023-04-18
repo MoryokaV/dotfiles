@@ -1,4 +1,5 @@
-<img width="1383" alt="Screenshot 2022-08-16 at 17 17 52" src="https://user-images.githubusercontent.com/55505135/184902652-0f794c29-1e46-462d-bb71-2e0163a604c3.png">
+<img width="1382" alt="Screenshot 2023-04-18 at 17 01 03" src="https://user-images.githubusercontent.com/55505135/232801428-deaa89db-6e8e-4ea4-b578-9e88ac61dc9c.png">
+
 
 # Mario's dotfiles
 OS X development configuration files
@@ -9,8 +10,10 @@ Used for: Python, JS, C++
 Font: Hack Nerd Font Mono
 
 ## Tools used
-  - zsh shell
-  - z for zsh
+  - fish shell
+  - z for fish
+  - tide shell theme
+  - exa (ls replacement)
   - Vim & NeoVim editors
   - Homebrew package manager
   - Tmux
