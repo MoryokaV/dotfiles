@@ -1,4 +1,4 @@
-local status, ts = pcall(require, 'nvim-treesitter.configs')
+local status, ts = pcall(require, "nvim-treesitter.configs")
 if (not status) then return end
 
 ts.setup {
@@ -11,20 +11,26 @@ ts.setup {
     disable = {},
   },
   ensure_installed = {
-    'tsx',
-    'lua',
-    'python',
-    'html',
-    'yaml',
-    'swift',
-    'dart',
-    'json',
-    'css',
-    'cpp',
-    'javascript'
+    "markdown",
+    "markdown_inline",
+    "tsx",
+    "typescript",
+    "toml",
+    "fish",
+    "php",
+    "json",
+    "yaml",
+    "swift",
+    "css",
+    "html",
+    "lua"
   },
   autotag = {
     enable = true,
+  },
+  context_commentstring = {
+    enable         = true,
+    enable_autocmd = false,
   }
 }
 
