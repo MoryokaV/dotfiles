@@ -14,7 +14,9 @@ end
 
 null_ls.setup {
   sources = {
-    null_ls.builtins.formatting.prettierd,
+    null_ls.builtins.formatting.prettierd.with({
+      extra_args = { "--print-width=120" }
+    }),
     null_ls.builtins.diagnostics.fish
   },
   on_attach = function(client, bufnr)
