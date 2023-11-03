@@ -42,6 +42,6 @@ set -gx VB_FIREBASE_CREDENTIALS "/Users/moryoka/Documents/Flutter Projects/Visit
 
 source (dirname (status --current-filename))/config-osx.fish
 
-if status is-interactive 
+if status is-interactive && not set -q TMUX
   neofetch
 end
