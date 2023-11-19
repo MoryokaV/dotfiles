@@ -17,6 +17,8 @@ alias ls "ls -p -G"
 alias la "ls -A"
 alias ll "ls -l"
 alias lla "ll -A"
+alias g git
+alias f flutter
 command -qv nvim && alias vim nvim
 
 # variables
@@ -31,7 +33,7 @@ fish_add_path "/Users/moryoka/Documents/Python Projects/iCloud-Drive-CLI"
 
 fish_add_path "/Users/moryoka/dev tools/flutter/bin"
 fish_add_path "~/.pub-cache/bin"
-set -gx ANDROID_HOME "/Users/moryoka/Library/Android/sdk"
+set -gx ANDROID_HOME /Users/moryoka/Library/Android/sdk
 fish_add_path $ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 
 fish_add_path /opt/homebrew/bin
@@ -39,9 +41,10 @@ set -gx HOMEBREW_NO_AUTO_UPDATE 1
 
 set -gx MONGO_URL "mongodb://master:frc30qp31@193.22.95.33:27017/?authMechanism=DEFAULT"
 set -gx VB_FIREBASE_CREDENTIALS "/Users/moryoka/Documents/Flutter Projects/Visit-Braila/backend/serviceAccountKey.json"
+set -gx CB_FIREBASE_CREDENTIALS "/Users/moryoka/Documents/Flutter Projects/City-Break/backend/serviceAccountKey.json"
 
 source (dirname (status --current-filename))/config-osx.fish
 
 if status is-interactive && not set -q TMUX
-  neofetch
+    neofetch
 end
